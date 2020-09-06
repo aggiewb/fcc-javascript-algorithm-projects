@@ -10,7 +10,7 @@ function rot13(str) {
           let newStrASCII = null;
           if(str[i].match(/[N-Z]/)){
               //ASCII code greater than 90 minus 90 plus 64
-              newStrASCII = (shiftedASCII - ASCIICodeZ + ASCIICodeA - 1);
+              newStrASCII = shiftedASCII - ASCIICodeZ + ASCIICodeA - 1;
             } else if (str[i].match(/[A-M]/)){
                 newStrASCII = shiftedASCII;
             }
@@ -20,6 +20,7 @@ function rot13(str) {
         }
     }
     //Mutate the original string even though the instructions don't state to
+    //because the tests on FCC don't pass otherwise
     str = newStr;
     return str;
 }

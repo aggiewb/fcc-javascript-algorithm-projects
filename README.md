@@ -1,4 +1,5 @@
 # fcc-javascript-algorithm-projects
+https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/
 
 ## JavaScript Algorithms and Data Structures Projects: Palindrome Checker
 https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/palindrome-checker
@@ -13,3 +14,10 @@ You'll need to remove all non-alphanumeric characters (punctuation, spaces and s
 We'll pass strings with varying formats, such as "racecar", "RaceCar", and "race CAR" among others.
 
 We'll also pass strings with special symbols, such as "2A3*3a2", "2A3 3a2", and "2_A3*3#A2".
+
+## JavaScript Algorithms and Data Structures Projects: Roman Numeral Converter
+https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/roman-numeral-converter
+
+Convert the given number into a roman numeral.
+
+All roman numerals answers should be provided in upper-case.
